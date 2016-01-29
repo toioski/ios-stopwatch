@@ -104,6 +104,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C25568F11C5B740F0081426B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C27D50A41C517D2A00473A9E /* Info.plist */,
+				C27D50981C517D2A00473A9E /* AppDelegate.swift */,
+				C27D509F1C517D2A00473A9E /* Assets.xcassets */,
+				C27D50A11C517D2A00473A9E /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C27D508C1C517D2A00473A9E = {
 			isa = PBXGroup;
 			children = (
@@ -124,13 +135,10 @@
 		C27D50971C517D2A00473A9E /* Stopwatch */ = {
 			isa = PBXGroup;
 			children = (
-				C27D50A41C517D2A00473A9E /* Info.plist */,
-				C27D50981C517D2A00473A9E /* AppDelegate.swift */,
+				C25568F11C5B740F0081426B /* Supporting Files */,
 				C27D50E61C52A7CA00473A9E /* LapTableViewCell.swift */,
 				C27D509A1C517D2A00473A9E /* ViewController.swift */,
-				C27D509F1C517D2A00473A9E /* Assets.xcassets */,
 				C2FF80551C53E98200425551 /* Extension */,
-				C27D50A11C517D2A00473A9E /* LaunchScreen.storyboard */,
 				C27D509C1C517D2A00473A9E /* Main.storyboard */,
 			);
 			path = Stopwatch;
